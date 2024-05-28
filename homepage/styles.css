@@ -1,0 +1,58 @@
+.title{
+    font-size: 60px;
+    padding: 10px 10px;
+}
+.nav{
+    font-size: 30px;
+    color: grey;
+    display: block;
+    padding: 10px 10px;
+}
+.text{
+    padding: 10px 10px;
+}
+a:link, a:visited {
+    background-color: grey;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover, a:active {
+    background-color: #D3D3D3;
+  }
+.footer-a{
+    position: absolute;
+    bottom: 0;
+    border: 3px;
+    padding: 10px 10px;
+}
+.footer-b{
+    position: relative;
+    bottom: 0;
+    border: 3px;
+    padding: 10px 10px;
+}
+.arrow{
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.poster{
+    padding: 10px 10px;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    max-width: 100%;
+    width: 265px;
+    height: 375px;
+    margin-right: 40px;
+}
+.slideshow{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}

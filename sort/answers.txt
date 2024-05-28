@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: sort1 has similar but a bit slower times than sort3 in all random sorts, but when sorting sorted50000, it is significantly faster than random50000, which means its Ω is n and not n^2. // time sort1 random5000: 0.077s, random10000: 0.318s, random50000: 7.455s, sorted50000: 0.436s
+
+sort2 uses: merge sort
+
+How do you know?: sort2 is the fastest algorithm of the 3 in all cases. // time sort2 random5000: 0.036s, random10000: 0.088s, random50000: 0.346s, sorted50000: 0.384s
+
+sort3 uses: selection sort
+
+How do you know?: since sort1 is bubble sort, and sort2 is merge sort, sort3 should be selection short. Since random50000 and sorted50000 times are similar (3.128s and 3.015) we deduce that sort3 Ω is n^2. // time sort3 random5000: 0.050s, random10000: 0.187s, random50000: 3.128s, sorted50000: 3.015s

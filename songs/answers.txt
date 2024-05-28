@@ -1,0 +1,12 @@
+1:
+Averages:
+    Energy: 0.65906
+    Valence: 0.484443
+    Tempo: 119.90418
+    Danceability: 0.71646
+
+Valence and Tempo are neither high or low. The 2 atrbutes that seem to be higher than average are energy and danceability. That description matches with the purple aura.
+
+2:
+I think that the aura descriptions are a bit unclear. Many different attributes can mean a lot of thngs. For example energy can be both a purple, a yellow and an orange clue, same with high tempos.\
+It is my belief that the best way to calculate an aura would be to assign different tags to songs and then sum the tags of the 100 most listened to songs for each individual.

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title class="title">Recommendations</title>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header>
+            <script>
+                function movies()
+                {
+                    window.location.href = 'movies.html';
+                }
+                function series()
+                {
+                    window.location.href = 'series.html';
+                }
+                function videogames()
+                {
+                    window.location.href = 'video-games.html';
+                }
+            </script>
+            <h1>
+                <b class="title">Recommendations</b>
+            </h1>
+        </header>
+        <!--MAIN-->
+        <main>
+            <!--NAVBAR-->
+            <nav class="nav">
+                <h2>
+                    <b>
+                        <a href="index.html"> Home </a>
+                        <a href="movies.html"> Movies </a>
+                        <a href="series.html"> Series </a>
+                        <a href="video-games.html"> Video Games </a>
+                    </b>
+                </h2>
+            </nav>
+            <!--TEXT-->
+            <h4 class="text">This is a webside designed to help you fight boredom while providing you with great media to consume! Browse between Movies, TV Series and Video Games</h4>
+            <!--SLIDESHOW-->
+            <section>
+                <h2 class="text"> Media </h2>
+                <!--button class="arrow pre"><</button-->
+                <!--button class="arrow next">></button-->
+                <div class="slideshow">
+                    <div class="poster" onclick="movies()" >
+                        <img src="images/movies/lilo-and-stitch.jpg" alt="Lilo & Stitch" >
+                    </div>
+                    <div class="poster" onclick="videogames()">
+                        <img src="images/video-games/kingdom-hearts.jpg" alt="Kingdom Hearts">
+                    </div>
+                    <div class="poster" onclick="series()">
+                        <img src="images/series/rick-and-morty.png" alt="Rick and Morty">
+                    </div>
+                    <div class="poster" onclick="videogames()">
+                        <img src="images/video-games/hollow-knight.png" alt="Hollow Knight">
+                    </div>
+                    <div class="poster" onclick="series()">
+                        <img src="images/series/one-piece.png" alt="One Piece">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer-a">
+            <h6>All media descriptions have been taken from Wikipedia and IMDb.</h6>
+        </footer>
+    </body>
+</html>
+
